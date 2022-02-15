@@ -22,6 +22,22 @@ h1 {
     font-weight: bold;
 }
 
+.jY7uzd {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    min-height: 100%;
+    padding: 0 0 56px;
+    position: relative;
+}
+
+.huyAzc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
 .nav {
     box-shadow: 0 0 5px grey;
     position: fixed;
@@ -44,7 +60,7 @@ h1 {
 }
 
 .nav__right {
-    display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -194,20 +210,15 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
-.block1 {
+.pZxRx {
     display: flex;
     flex-flow: column;
     margin-bottom: 0;
     text-align: center;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1080px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
 }
 
-.block1__info {
+.BLytye {
     margin: 24px 0;
     -webkit-box-ordinal-group: 2;
     order: 2;
@@ -222,17 +233,6 @@ h1 {
     font-family: 'Libre Baskerville', serif;
 }
 
-.feedback-button {
-    margin-top: 24px;
-    background-color: #48487f;
-    color: white;
-    cursor: pointer;
-}
-
-.feedback-button:hover {
-    background-color: #4a4a59;
-}
-
 .img-cover {
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,7 +244,13 @@ h1 {
     width: 100%;
 }
 
-.block2 {
+.img-map {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.b0t70b {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -306,6 +312,11 @@ h1 {
     padding: 12px 20px;
     white-space: nowrap;
     background-color: #48487f;
+    cursor: pointer;
+}
+
+.current-hours-content {
+    margin-bottom: 24px;
 }
 
 .PDvGL:hover {
@@ -346,6 +357,42 @@ h1 {
     padding: 0 0.5em;
 }
 
+.UQyKne {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 5px grey;
+    display: flex;
+    height: 56px;
+    position: fixed;
+    width: 100%;
+}
+
+.huyAzc .oYxtQd, .huyAzc .PDllHc {
+    color: #48487f;
+}
+
+.oYxtQd, .PDllHc, .PDvGL {
+    cursor: pointer;
+}
+
+.eOemif {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    padding-top: 6px;
+    text-align: center;
+    align-items: center;
+}
+
+.eOemif .xPRkMe {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
 @media (min-width: 992px) {
     .fGZQDc {
         flex-direction: row;
@@ -380,32 +427,37 @@ h1 {
         padding: 0 66px;
     }
 
-    main {
+    .nav__right {
+        display: flex;
+    }
+
+
+    .jY7uzd {
         padding: 64px 80px 0;
     }
 
-    .block1 {
+    .pZxRx {
         margin-bottom: 128px;
     }
 
-    .block1__info {
+    .BLytye {
         margin: 80px 0;
         -webkit-box-ordinal-group: 1;
         order: 1;
     }
 
-    .feedback-button {
+    .PDvGL {
         padding: 18px 54px;
     }
 
-    .PDvGL {
-        padding: 18px 54px;
+    .UQyKne {
+        display: none;
     }
 }
 
 @media (min-width: 480px) {
 
-    main {
+    .jY7uzd {
         overflow-x: hidden;
     }
 }
