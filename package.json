@@ -1,0 +1,10 @@
+{
+  "name": "prisma",
+  "version": "1.0.0",
+  "description": "prisma plug",
+  "main": "index.js",
+  "repository": "github.com:ineg22/prisma.git",
+  "author": "ineg",
+  "license": "MIT",
+  "private": false
+}
